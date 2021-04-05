@@ -1,0 +1,158 @@
+/*
+    Author: Caner ONCEL
+    https://isinuzmani.com
+    https://egonomik.com
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&display=swap&subset=latin-ext');
+
+#toasti {
+    position: fixed;
+    font-family: 'Raleway', sans-serif;
+    z-index: 99999;
+}
+
+#toasti.toasti-top-left {
+    top: 10px;
+    left: 10px;
+}
+
+#toasti.toasti-top-right {
+    top: 10px;
+    right: 10px;
+}
+
+#toasti.toasti-bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+#toasti.toasti-bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+#toasti .toasti-container {
+    display: inline-block;
+}
+
+#toasti .toasti-item {
+    display: none;
+    cursor: default;
+    position: relative;
+    margin-top: 14px;
+    text-align: left;
+    background-color: #FFFFFF;
+    width: 400px;
+    overflow: hidden;
+    padding: 20px 0 15px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.2);
+    z-index: 99999999;
+}
+
+#toasti .toasti-item .toasti-timer {
+    position: relative;
+    height: 5px;
+    background: rgba(206, 212, 218, 0.50);
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+#toasti .toasti-item .toasti-timer .tosti-bar {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #ced4da;
+}
+
+#toasti .toasti-item .toasti-icon {
+    float: left;
+    width: 39px;
+    height: 39px;
+    margin: 0 0 0 13px;
+    line-height: 1em;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#toasti .toasti-item .toasti-icon .toasti-svg {
+    fill: #FFFFFF;
+    margin: 10px;
+}
+
+#toasti .toasti-item .toasti-title {
+    color: #3e3e3e;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+#toasti .toasti-item .toasti-message {
+    font-size: 15px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #878787;
+}
+
+#toasti .toasti-item .toasti-content {
+    padding-left: 65px;
+    padding-right: 40px;
+}
+
+#toasti .toasti-item .toasti-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 14px;
+    cursor: pointer;
+    height: 14px;
+    fill: #878787;
+}
+
+#toasti .toasti-success .toasti-icon {
+    background-color: #41bb46;
+}
+
+#toasti .toasti-success {
+    border-left: 5px solid #41bb46;
+}
+
+#toasti .toasti-info .toasti-icon {
+    background-color: #1D72F3;
+}
+
+#toasti .toasti-info {
+    border-left: 5px solid #1D72F3;
+}
+
+#toasti .toasti-warning .toasti-icon {
+    background-color: #FFC007;
+}
+
+#toasti .toasti-warning {
+    border-left: 5px solid #FFC007;
+}
+
+#toasti .toasti-error .toasti-icon {
+    background-color: #f44336;
+}
+
+#toasti .toasti-error {
+    border-left: 5px solid #f44336;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 300px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 480px) {
+
+}
